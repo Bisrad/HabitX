@@ -12,7 +12,7 @@
      <link href="https://bootswatch.com/4/darkly/bootstrap.css" rel="stylesheet" type="text/css"/>
 
     <!-- main styling -->
-    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
 
 </head>
 <body>
@@ -23,15 +23,33 @@
     </nav>
     
     <header>
-        <div class="main-header">
-            <input type="text" placeholder="Enter New Habit...">
+        <div class="container">
+            <div class="main-header">
+                <h3>Create a New Habit in 30 Days</h3>
+                <input type="text" placeholder="Enter New Habit...">
+            </div>
         </div>
     </header>
 
     <!-- main container -->
 
-
-
+    <div class="main-container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Bootstrap Grid Demo</h1>
+            <div class="inputs">
+            <button disabled="disabled">habit 1</button>
+            <button disabled="disabled">habit 2</button>
+            <button disabled="disabled">habit 3</button>
+            <button disabled="disabled">habit 4</button>
+            </div>
+          </div>
+          <div class="col-sm-6" style="max-width: 35rem;">
+            <h1>30 day tracker</h1>
+            <div id="calender"></div>
+          </div>
+        </div>
+      </div>
 
     <!-- end main container -->
 
